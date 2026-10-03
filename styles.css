@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+/* Navbar Styles - Inline and blockproperties used instead of flex */
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 40px;
+    line-height: 10vh;
+}
+.nav-left{
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+.nav-links{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav-links ul{
+    list-style: none;
+}
+.nav-links ul li{
+    display: inline;
+    margin: 0 15px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+}
+.nav-links ul li a:hover{
+    color: #00a8cc;
+}
+.nav-right{
+    display: inline-block;
+    width: 24%;
+    text-align: right;
+    vertical-align: middle;
+}
+.username-badge{
+    background-color: #e3f2fd;
+    font-weight: bold;
+    color: #0277bd;
+    padding: 6px 14px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+/* Hero Section Styles - Using Viewport unites to fit screen without scrolling */
+.hero-section{
+    width: 100vw;
+    height: 90vh;
+    background-color: #f8f9fa;
+    padding: 50px 60px;
+}
+.hero-left{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    padding-right: 40px;
+}
+.hero-left h1{
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+.hero-left h1 .highlight{
+    color: #00a8cc;
+}
+.hero-left p{
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.btn{
+    background-color: #00a8cc;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #008fae;
+}
+.hero-right{
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    text-align: center;
+}
+.hero-right img{
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh;
+}
